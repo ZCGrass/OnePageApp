@@ -1,0 +1,66 @@
+#app, .sw-layout {
+  height: 100%;
+}
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a {
+  color: #fff !important;
+}
+
+.sw-logo {
+  height: 64px !important;
+  position: relative;
+  line-height: 64px  !important;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  background: #fff;
+  overflow: hidden;
+}
+
+.sw-logo h1 {
+  color: #108ee9;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0 0 0 12px;
+  font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.ant-layout {
+  background: #f0f2f5 !important;
+}
+
+.ant-row {
+  width: 100%;
+}
+
+.sw-content {
+  padding: 20px;
+}
+
+.sw-content .ant-layout-content {
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header {
+  background: #fff;
+}
+.header .ant-menu {
+  line-height: 64px !important;
+}
+
+.sw-login {
+  text-align: right;
+  display: flex;
+}
+
+.sw-login .ant-btn {
+  margin-left: 10px;
+}
+
+.sw-menu {
+  width: 200px;
+  font-size: 14px;
+}

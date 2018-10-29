@@ -1,0 +1,21 @@
+export default {
+  searchPlaceHolder: 'Dim Name',
+  add: '/api/Dim/Add',
+  update: '/api/Dim/Update',
+  delete: '/api/Dim/Delete',
+  search: '/api/Dim/Get',
+  getCurrentPrincipals: '/api/DataAuthority/GetCurrentPrincipals',
+  setPrincipals: '/api/DataAuthority/SetPrincipals',
+  deleteConfirmTitle: 'Are you sure delete this Dim?',
+  defaultModel: {
+    PrincipalId: '',
+    Name: '',
+    NameEn: '',
+    Description: '',
+    ParentNode: '',
+    ParentNodeName: '',
+    ModifyTime: '',
+    ModifyUser: '',
+    App_Id: '',
+  },
+};

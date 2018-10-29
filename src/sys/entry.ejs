@@ -1,0 +1,23 @@
+<% htmlWebpackPlugin.options.headScripts = htmlWebpackPlugin.options.headScripts || [] %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <% for (item of htmlWebpackPlugin.options.headScripts) { %>
+      <script src="<%= item %>"></script>
+      <% } %>
+  </head>
+
+  <body>
+    <div id="app" />
+    <script src="../vendor.dll.js"></script>
+  </body>
+
+  </html>
